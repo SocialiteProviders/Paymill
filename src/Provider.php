@@ -8,9 +8,7 @@ use Laravel\Socialite\Two\User;
 class Provider extends AbstractProvider implements ProviderInterface
 {
     /**
-     * The scopes being requested.
-     *
-     * @var array
+     * {@inheritdoc}
      */
     protected $scopes = ['transactions_rw'];
 
@@ -19,7 +17,9 @@ class Provider extends AbstractProvider implements ProviderInterface
      */
     protected function getAuthUrl($state)
     {
-        return $this->buildAuthUrlFromBase('https://connect.paymill.com/authorize', $state);
+        return $this->buildAuthUrlFromBase(
+            'https://connect.paymill.com/authorize', $state
+        );
     }
 
     /**
@@ -51,6 +51,8 @@ class Provider extends AbstractProvider implements ProviderInterface
      */
     protected function getTokenFields($code)
     {
-        return array_merge(parent::getTokenFields($code), ['grant_type' => 'authorization_code']);
+        return array_merge(parent::getTokenFields($code), [
+            'grant_type' => 'authorization_code',
+        ]);
     }
 }
