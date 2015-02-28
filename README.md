@@ -1,5 +1,11 @@
 # Paymill OAuth2 Provider for Laravel Socialite
 
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/SocialiteProviders/Paymill.svg?style=flat-square)](https://scrutinizer-ci.com/g/SocialiteProviders/Paymill/?branch=master)
+[![Latest Stable Version](https://img.shields.io/packagist/v/socialiteproviders/paymill.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/paymill)
+[![Total Downloads](https://img.shields.io/packagist/dt/socialiteproviders/paymill.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/paymill)
+[![Latest Unstable Version](https://img.shields.io/packagist/vpre/socialiteproviders/paymill.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/paymill)
+[![License](https://img.shields.io/packagist/l/socialiteproviders/paymill.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/paymill)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Contents
