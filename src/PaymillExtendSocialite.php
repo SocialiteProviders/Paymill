@@ -1,4 +1,5 @@
 <?php
+
 namespace SocialiteProviders\Paymill;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;
